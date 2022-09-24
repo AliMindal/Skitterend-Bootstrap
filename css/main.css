@@ -1,0 +1,403 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(../images/pexels-photo-404280.webp);
+    background-size: cover;
+    height: auto;
+}
+.navbar{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-image: linear-gradient(to left, purple, blue, purple) !important;
+    z-index: 998;
+}
+.navbar .collapse form button{
+    color: aqua;
+    width: 60px;
+    height: 35px;
+    font-size: small;
+}
+.navbar .collapse form button:hover{
+    background-image: linear-gradient(to left, black ,blue);
+}
+.navbar .collapse ul li:hover a{
+    border: 1px solid purple;
+    border-radius: 10px;
+    background-color: white;
+    color: darkblue;
+    padding: 0px 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.img-fluid{
+    width: 50px;
+    height: 50px;
+    border-radius: 0px 25px;
+}
+
+/* End Navvvvvvvvvvvvvvv */
+
+div.about{
+    margin: 50px 0px;
+}
+.about .text{
+    color: rgb(148, 146, 146);
+    font-size: 25px;
+    border: 1px solid gray;
+    border-radius: 30px 0px;
+}
+.about .text p{
+    margin: 20px 0px;
+}
+.about .logo .img-fluid{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 200px;
+}
+
+/* End about usssssssssssss */
+div.container{
+  width: 100%;
+  background-image: url(../images/pexels-daniel-putzer-633409.jpg);
+  margin: 30px 0px;
+}
+.product-title{
+    width: 100%;
+    margin: 30px 0px;
+}
+.product-title .linear{
+    width: 33%;
+    height: 60px;
+    background-image: linear-gradient(to left, purple, blue, purple);
+    margin: auto;
+    
+}
+.product-title .linear .title{
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    background-color: #cce5ff;
+    border-right: 5px solid purple;
+    border-left: 5px solid purple;
+    border-radius: 50px;
+}
+.product-title .title h3{
+    text-align: center;
+}
+/* End Product titleeeeeeeeeeeeeee */
+
+
+#carouselExampleControls .carousel-inner .carousel-item img{    
+    height: 630px;  
+}
+.container .products{
+  width: 100%;
+  margin: auto;
+}
+.container .products  .content .card img{
+    height: 240px;
+}
+
+.container .products .card{
+    text-align: center;
+    border: gray solid 1px;
+}
+
+.container .products .card .card-body button{
+    border: gray solid 1px;
+}
+
+/* End Our producttttttttttttttttttt */
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
+  background: #151414;
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: purple;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #DD4B39;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: purple;
+}
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: purple;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: purple;
+    padding: 13px 20px;
+    transition: all 5s;
+    animation: subs;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+.subscribe-form :hover {
+    background-image: linear-gradient(to left, black, blue);
+    border: 1px solid aqua;
+    @keyframes subs {
+        @media 25% {
+            transform:rotate(360deg)
+        }
+    }
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #ff5e14;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: purple;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+
+/* End footerrrrrrrrrrrrrrrrrrr */
+
+div.sign{
+    position:fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 88;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 70px;
+    background: linear-gradient(to top, rgba(20, 148, 190, 0.575) 30%, rgba(255, 255, 255, 0.404));
+}
+.sign .tic{
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: rgb(17, 20, 108);
+}
+.sign .tac{
+    font-family: 'Tangerine', serif;
+    font-size: 40px;
+    color: rgb(29, 6, 29);
+}
+.sign .toe{
+    font-family: 'Tangerine', serif;
+    font-size: 40px;
+}
+.click{
+    text-decoration: none;
+}
+.sign .tic {
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.sign .trac{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: rgb(17, 20, 108);
+    
+}
+.sign .tic :hover a{
+    border: 1px solid blue;
+    border-radius: 5px;
+    height: 30px;
+    background-color: rgba(90, 40, 90, 0.412);
+    background-color: #FFCCCC;
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+}
+
+/* test anime */
+sign {
+    
+	position: relative;
+}
+
+.cloud {
+	width: 300px;
+	height: 100px;
+	position: absolute;
+    
+}
+
+.fcloud01 {
+
+	z-index: 600;
+	animation: drift 12s linear infinite;
+} 
+
+
+@keyframes drift {
+	from {
+		transform: translateX(-110px);
+	}
+	to {
+		transform: translateX(1250px);
+	}
+}
+
+/* test anime end */
+
+
+
+/* Start Media */
+
+@media (max-width: 600px) {
+    
+    .about .logo .img-fluid{
+        width: 100%;
+        height: 100%;
+        border-radius: 0px 140px;
+    }
+    .about .text{
+        font-size: 16px;
+        border-radius: 30px 0px;
+    }
+    .about .text p{
+        margin: 10px 0px;
+    }
+    .product-title .linear{
+        width: 90%;
+        height: 60px;
+        background-image: linear-gradient(to left, purple, blue, purple);
+        margin: auto;
+        
+    }
+    
+  }
+
+/* End Media */
